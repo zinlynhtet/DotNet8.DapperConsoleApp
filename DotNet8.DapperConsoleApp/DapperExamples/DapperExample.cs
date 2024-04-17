@@ -2,18 +2,7 @@
 
 public class DapperExample
 {
-    private readonly SqlConnectionStringBuilder sqlConnectionStringBuilder;
-
-    public DapperExample()
-    {
-        sqlConnectionStringBuilder = new SqlConnectionStringBuilder();
-        sqlConnectionStringBuilder.DataSource = ".";
-        sqlConnectionStringBuilder.InitialCatalog = "TestDb";
-        sqlConnectionStringBuilder.UserID = "sa";
-        sqlConnectionStringBuilder.Password = "sasa@123";
-        sqlConnectionStringBuilder.TrustServerCertificate = true;
-    }
-
+    private string  ;
     public void Run()
     {
         Get<BlogDataModel>();
