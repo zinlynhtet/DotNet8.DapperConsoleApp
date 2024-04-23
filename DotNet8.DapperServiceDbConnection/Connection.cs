@@ -1,9 +1,9 @@
 ﻿using System.Data.SqlClient;
 namespace DotNet8.DapperServiceDbConnection;
 
-public class Connection
+public  class Connection
 {
-    public string DapperExample()
+    public  string ConnectionString()
     {
         var sqlConnectionStringBuilder = new SqlConnectionStringBuilder();
         sqlConnectionStringBuilder.DataSource = ".";
