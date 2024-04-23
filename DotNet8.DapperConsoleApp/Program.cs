@@ -1,4 +1,4 @@
-﻿var service = new ServiceCollection().AddScoped<Connection>().AddScoped<DapperExample>().BuildServiceProvider();
+﻿var service = new ServiceCollection().AddScoped<Connection>().AddScoped<DapperService>().BuildServiceProvider();
 
-DapperExample dapper = service.GetRequiredService<DapperExample>();
+DapperService dapper = service.GetRequiredService<DapperService>();
 dapper.Run();
